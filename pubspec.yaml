@@ -1,0 +1,82 @@
+name: Officerr
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.7.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.3
+  provider: ^4.1.3
+  firebase_auth: ^0.16.1
+  google_sign_in: '^4.1.0'
+  flutter_secure_storage: '^3.3.3'
+  flutter_svg: '^0.17.4'
+  fluttertoast: '^3.1.3'
+  carousel_slider: ^2.2.1
+  ndialog: '^2.0.2+1'
+  bottom_navy_bar: '^5.4.0'
+  fancy_bottom_navigation: '^0.3.2'
+  camera: ^0.5.8+2
+  path_provider: 1.6.11
+  video_player: ^0.10.11+1
+
+dev_dependencies:
+  local_google_fonts: '^1.0.8'
+  logger: '^0.7.0+2'
+  lottie: '^0.3.6'
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: 'Merienda'
+      fonts:
+        - asset: 'assets/fonts/googleFonts/Merienda/Merienda-700.ttf'
+          weight: 700
+    - family: 'Ubuntu'
+      fonts:
+        - asset: 'assets/fonts/googleFonts/Ubuntu/Ubuntu-300.ttf'
+          weight: 300
+        - asset: 'assets/fonts/googleFonts/Ubuntu/Ubuntu-500.ttf'
+          weight: 500
+        - asset: 'assets/fonts/googleFonts/Ubuntu/Ubuntu-700.ttf'
+          weight: 700
+  assets:
+    - assets/anim/placeholder.json
+    - assets/anim/auth1.json
+    - assets/anim/auth2.json
+    - assets/anim/auth3.json
+    - assets/anim/auth4.json
+    - assets/anim/auth5.json
+  #   - images/a_dot_ham.jpeg
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
