@@ -73,10 +73,10 @@ class _AuthPage extends State<StatefulWidget> {
               Container(
                   padding: constants.dPadding64,
                   child: UtilUI.getButton(context, constants, constants.sLoginGoogle, () {
-                    AuthProvider().login(context, () async {
-                      util.log("going to home");
-                      util.navigatePushReplacement(context, HomePage.tag, {});
-                    });
+                    //AuthProvider().login(context, () async {
+                    util.log("going to home");
+                    util.navigatePushReplacement(context, HomePage.tag, {});
+                    //});
                   }, color: constants.blue))
             ]),
           ),
